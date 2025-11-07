@@ -24,11 +24,11 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-b from-[#40132d] to-[#8e4848]">
+    <section className="py-20 bg-linear-to-b from-[#40132d] to-[#8e4848]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-white mb-4">آراء عملائنا</h2>
-          <p className="text-gray-600 text-lg text-white">
+          <p className="text-lg text-white">
             اكتشف ما يقوله عملاؤنا عن تجربتهم معنا
           </p>
         </div>

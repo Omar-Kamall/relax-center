@@ -53,9 +53,10 @@ const BlogSection = () => {
                     alt={post.title}
                     fill
                     className="object-cover"
+                    loading="lazy"
                   />
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent"></div>
               </div>
               <div className="p-6">
                 <div className="text-sm text-gray-500 mb-2">{post.date}</div>

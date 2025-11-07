@@ -52,7 +52,7 @@ const BlogContent = () => {
                     className="object-cover"
                   />
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent"></div>
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between mb-3">

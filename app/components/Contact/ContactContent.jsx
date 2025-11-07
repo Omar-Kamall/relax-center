@@ -48,28 +48,28 @@ const ContactContent = () => {
       link: "https://www.google.com/maps/place/%D9%85%D8%B3%D8%A7%D8%AC+%D9%88%D8%AD%D9%84%D8%A7%D9%82+%D9%85%D8%B7%D9%84+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A9+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%AE%D8%A7%D8%A1%E2%80%AD/@24.5387307,46.6533781,3450a,13.1y/data=!3m8!1e2!...",
     },
     {
-      name: "مركز عنوان الهداء",
+      name: "مركز عنوان الهدوء",
       phone: "0553790020",
       address: "عنوان الهدوء - طريق ديراب",
       hours: "يومياً من 10:00 ص - 10:00 م",
-      coords: { lat: 24.585, lng: 46.665 },
-      link: "#", // أضف الرابط هنا لاحقاً
+      coords: { lat: 24.5333721, lng: 46.6561032 },
+      link: "https://www.google.com/maps/place/%D9%85%D8%B3%D8%A7%D8%AC+%D8%B9%D9%86%D9%88%D8%A7%D9%86+%D8%A7%D9%84%D9%87%D8%AF%D9%88%D8%A1+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%AE%D8%A7%D8%A1%E2%80%AD/@24.5333721,46.6561032,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f11e1727efa5f:0xe8583d5ff2b7889f!8m2!3d24.5333721!4d46.6561032!16s%2Fg%2F11yd82xzsk?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D", // أضف الرابط هنا لاحقاً
     },
     {
       name: "مركز المثلث الذهبي",
       phone: "0592098944",
       address: "معالم الراحة - طريق الامام مسلم",
       hours: "يومياً من 10:00 ص - 10:00 م",
-      coords: { lat: 24.69, lng: 46.74 },
-      link: "#",
+      coords: { lat: 24.5835872, lng: 46.5809821 },
+      link: "https://www.google.com/maps/place/%D9%85%D8%B3%D8%A7%D8%AC+%D8%A7%D9%84%D9%85%D8%AB%D9%84%D8%AB+%D8%A7%D9%84%D8%B0%D9%87%D8%A8%D9%8A+%D9%84%D9%84%D8%A5%D8%B3%D8%AA%D8%B1%D8%AE%D8%A7%D8%A1%E2%80%AD/@24.5835872,46.583557,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f194882c80ca7:0xcd7929f83ee00cea!8m2!3d24.5835872!4d46.5809821!16s%2Fg%2F11yc92bf8g?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D",
     },
     {
       name: "معنى الراحة",
       phone: "0592098944",
       address: "الموسى",
       hours: "يومياً من 10:00 ص - 10:00 م",
-      coords: { lat: 24.63, lng: 46.68 },
-      link: "https://www.google.com/maps/place/%D9%85%D8%B3%D8%A7%D8%AC+%D9%88%D8%AD%D9%84%D8%A7%D9%82+%D9%85%D8%B7%D9%84+%D8%A7%D9%84%D9%88%D8%A7%D8%AD%D8%A9+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%AE%D8%A7%D8%A1%E2%80%AD/@24.5387307,46.6533781,3450a,13.1y/data=!3m8!1e2!3m6!1sAF1QipP3oqr97fYuvtQKNihmYWM3wiBv9B3t8O0wJbk9!2e10!3e12!6shttps:%2F%2Fgz0.googleusercontent.com%2Fp%2FAF1QipP3oqr97fYuvtQKNihmYWM3wiBv9B3t8O0wJbk9%3Dw360-h240-k-no!7i5472!8i3648!4m7!3m6!1s0x3e2f1100293a0a11:0xfa41bf286504485a!8m2!3d24.5387307!4d46.6533781!10e5!16s%2Fg%2F11wx0s66ld?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D",
+      coords: { lat: 24.5592413, lng: 46.5748409 },
+      link: "https://www.google.com/maps/place/%D9%85%D8%B3%D8%A7%D8%AC+%D9%85%D8%B9%D9%86%D9%89+%D8%A7%D9%84%D8%B1%D8%A7%D8%AD%D8%A9+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%AE%D8%A7%D8%A1%E2%80%AD/@24.5592413,46.5748409,17z/data=!3m1!4b1!4m6!3m5!1s0x3e2f19adb887f8b5:0xd477343bf546daac!8m2!3d24.5592413!4d46.5748409!16s%2Fg%2F11yn1xgmlp?entry=ttu&g_ep=EgoyMDI1MTEwNC4xIKXMDSoASAFQAw%3D%3D",
     },
   ];
 
@@ -86,7 +86,7 @@ const ContactContent = () => {
         const distances = branches.map((branch) => {
           const distance = Math.sqrt(
             Math.pow(branch.coords.lat - latitude, 2) +
-            Math.pow(branch.coords.lng - longitude, 2)
+              Math.pow(branch.coords.lng - longitude, 2)
           );
           return { ...branch, distance };
         });
@@ -104,7 +104,7 @@ const ContactContent = () => {
   return (
     <div className="min-h-screen">
       {/* Header Section */}
-      <div className="relative py-20 pt-32 bg-gradient-to-r from-[#40132d] to-[#d1955d]">
+      <div className="relative py-20 pt-32 bg-linear-to-r from-[#40132d] to-[#d1955d]">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">اتصل بنا</h1>
@@ -119,10 +119,15 @@ const ContactContent = () => {
         <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
           {/* Contact Form */}
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">أرسل لنا رسالة</h2>
+            <h2 className="text-2xl font-bold text-gray-800 mb-6">
+              أرسل لنا رسالة
+            </h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
-                <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
+                <label
+                  htmlFor="name"
+                  className="block text-gray-700 font-medium mb-2"
+                >
                   الاسم
                 </label>
                 <input
@@ -136,7 +141,10 @@ const ContactContent = () => {
                 />
               </div>
               <div>
-                <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
+                <label
+                  htmlFor="phone"
+                  className="block text-gray-700 font-medium mb-2"
+                >
                   رقم الهاتف
                 </label>
                 <input
@@ -150,7 +158,10 @@ const ContactContent = () => {
                 />
               </div>
               <div>
-                <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+                <label
+                  htmlFor="email"
+                  className="block text-gray-700 font-medium mb-2"
+                >
                   البريد الإلكتروني
                 </label>
                 <input
@@ -164,7 +175,10 @@ const ContactContent = () => {
                 />
               </div>
               <div>
-                <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
+                <label
+                  htmlFor="message"
+                  className="block text-gray-700 font-medium mb-2"
+                >
                   الرسالة
                 </label>
                 <textarea
@@ -199,9 +213,12 @@ const ContactContent = () => {
               {nearestBranch && (
                 <div className="mt-4 p-4 border rounded-lg text-right bg-gray-50">
                   <h4 className="font-semibold text-gray-800">
-                    أقرب فرع: <span className="text-primary">{nearestBranch.name}</span>
+                    أقرب فرع:{" "}
+                    <span className="text-primary">{nearestBranch.name}</span>
                   </h4>
-                  <p className="text-sm text-gray-600 mb-2">{nearestBranch.address}</p>
+                  <p className="text-sm text-gray-600 mb-2">
+                    {nearestBranch.address}
+                  </p>
                   <a
                     href={nearestBranch.link}
                     target="_blank"
@@ -218,20 +235,34 @@ const ContactContent = () => {
           {/* Contact Info */}
           <div className="space-y-6">
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">معلومات الاتصال</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                معلومات الاتصال
+              </h2>
               <div className="space-y-4 text-gray-700">
-                <p>📞 الهاتف: <a href="tel:+966592098944" className="text-primary">+966 59 209 8944</a></p>
+                <p>
+                  📞 الهاتف:{" "}
+                  <a href="tel:+966592098944" className="text-primary">
+                    +966 59 209 8944
+                  </a>
+                </p>
                 <p>🕒 ساعات العمل: يومياً من 10:00 ص - 10:00 م</p>
               </div>
             </div>
 
             {/* Branches Section */}
             <div className="bg-white p-8 rounded-lg shadow-md">
-              <h2 className="text-2xl font-bold text-gray-800 mb-6">فروعنا الرئيسية</h2>
+              <h2 className="text-2xl font-bold text-gray-800 mb-6">
+                فروعنا الرئيسية
+              </h2>
               <div className="space-y-4">
                 {branches.map((branch, index) => (
-                  <div key={index} className="border-b border-gray-200 pb-4 last:border-0">
-                    <h3 className="font-semibold text-primary mb-1">{branch.name}</h3>
+                  <div
+                    key={index}
+                    className="border-b border-gray-200 pb-4 last:border-0"
+                  >
+                    <h3 className="font-semibold text-primary mb-1">
+                      {branch.name}
+                    </h3>
                     <p className="text-sm text-gray-600">{branch.address}</p>
                     <a
                       href={`tel:+966${branch.phone.replace(/^0/, "")}`}

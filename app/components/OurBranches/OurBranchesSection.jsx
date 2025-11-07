@@ -1,49 +1,85 @@
+"use client";
+import { triangle5, motel1, motel2, motel3, motel4, motel5, motel6, relax1, relax2, relax3, relax4, relax5, relax6, triangle1, triangle2, triangle3, triangle4 } from "@/public/assets/img";
+import Image from "next/image";
 import Link from "next/link";
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
 
-const BranchesSection = () => {
+const OurBranchesSection = () => {
   const branches = [
     {
       name: "مركز مطل الواحه",
       phone: "0550521499",
       address: "مطل الواحة - الحزم",
       hours: "يومياً من 10:00 ص - 10:00 م",
+      images: [motel6, motel1, motel2 , motel3 , motel4 ,motel5],
     },
     {
-      name: "مركز عنوان الهداء",
+      name: "مركز عنوان الهدوء",
       phone: "0553790020",
       address: "عنوان الهدوء - طريق ديراب",
       hours: "يومياً من 10:00 ص - 10:00 م",
+      images: [relax2, relax1, relax3 , relax6 , relax4 ,relax5],
     },
     {
       name: "مركز المثلث الذهبي",
       phone: "0592098944",
       address: "معالم الراحة - طريق الامام مسلم",
       hours: "يومياً من 10:00 ص - 10:00 م",
+      images: [ triangle1, triangle2 ,triangle3 , triangle4 ,triangle5 , relax6],
     },
     {
       name: "معنى الراحة",
       phone: "0592098944",
       address: "الموسى",
       hours: "يومياً من 10:00 ص - 10:00 م",
+      images: [relax5, relax1, triangle2 , relax3 , relax4 ,relax6],
     },
   ];
-
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-primary mb-4">فروعنا</h2>
-          <p className="text-gray-600 text-lg">
-            تجدوننا في أرقى المواقع في مختلف مدن المملكة العربية السعودية
-          </p>
+    <>
+      <section className="mb-10">
+        <div className="relative py-20 pt-32 bg-linear-to-r from-[#40132d] to-[#d1955d]">
+          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="text-center text-white">
+              <h1 className="text-5xl md:text-6xl font-bold mb-4">فروعنا</h1>
+              <p className="text-xl md:text-2xl max-w-2xl mx-auto opacity-90">
+                اكتشف مجموعة واسعة من خدمات السبا والاسترخاء المميزة
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {branches.slice(0,3).map((branch, index) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+          {branches.map((branch, index) => (
             <div
               key={index}
               className="bg-gray-50 border border-gray-200 rounded-lg p-6 hover:shadow-lg transition"
             >
+              <Swiper
+                modules={[Autoplay, Pagination]}
+                spaceBetween={30}
+                slidesPerView={1}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
+                pagination={{ clickable: true }}
+                className="pb-12"
+              >
+                {branch.images.map((img, index) => (
+                  <SwiperSlide key={index}>
+                    <Image
+                      src={img}
+                      alt="مراكز-الراحه"
+                      className="w-full h-[300px] rounded mb-2"
+                      loading="lazy"
+                    />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
               <h3 className="text-xl font-bold text-primary mb-2">
                 {branch.name}
               </h3>
@@ -64,7 +100,7 @@ const BranchesSection = () => {
                     />
                   </svg>
                   <a
-                    href={`tel:+966${branch.phone.replace(/^0/, '')}`}
+                    href={`tel:+966${branch.phone.replace(/^0/, "")}`}
                     className="text-gray-700 hover:text-primary transition"
                   >
                     {branch.phone}
@@ -96,19 +132,9 @@ const BranchesSection = () => {
             </div>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <Link
-            href="/ourBranches"
-            className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition inline-block"
-          >
-            جميع الفروع
-          </Link>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
-export default BranchesSection;
-
+export default OurBranchesSection;

@@ -56,6 +56,7 @@ const OffersSection = () => {
                   alt={offer.title}
                   fill
                   className="object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="p-6">

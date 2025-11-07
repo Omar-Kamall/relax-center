@@ -59,7 +59,7 @@ const AboutContent = () => {
   return (
     <div className="min-h-screen">
       {/* Header Section */}
-      <div className="relative py-20 pt-32 bg-gradient-to-r from-[#40132d] to-[#d1955d]" >
+      <div className="relative py-20 pt-32 bg-linear-to-r from-[#40132d] to-[#d1955d]" >
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center text-white">

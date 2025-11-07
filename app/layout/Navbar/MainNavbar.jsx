@@ -13,6 +13,7 @@ const MainNavbar = () => {
     { href: "/whoAreWe", label: "من نحن", id: "about" },
     { href: "/about", label: "خدماتنا", id: "services" },
     { href: "/offers", label: "عروضنا", id: "offers" },
+    { href: "/ourBranches", label: "فروعنا", id: "ourBranches" },
     { href: "/blog", label: "المدونة", id: "blog" },
     { href: "/contact", label: "اتصل بنا", id: "contact" },
   ];
