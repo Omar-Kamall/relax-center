@@ -7,14 +7,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { Logo, Img1, Img2 } from "@/public/assets/img/index.js";
+import { Img1, Img2 } from "@/public/assets/img/index.js";
 
 const Hero = () => {
-  const sendWhatsApp = (message = "أريد الحجز") => {
-    const phoneNumber = "966592098944";
-    const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
-  };
 
   const slides = [
     {
@@ -79,12 +74,12 @@ const Hero = () => {
                   >
                     {slide.cta}
                   </Link>
-                  <button
-                    onClick={() => sendWhatsApp(`أريد الحجز - ${slide.title}`)}
+                  <Link
+                    href="/contact"
                     className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition border-2 border-white"
                   >
                     احجز الآن
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
